@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --white: #ffffff;
+    --off-white: #e5e5e5;
+    --trasp-white-1:rgba(255 ,255, 255 ,0.25);
+    --trasp-white-2:rgba(255,255,255,0.1);
+    --blue-1:#62b8f5;
+    --blue-2 :#4475ef;
+    --shadow :rgba(3,46,87,0.2);
+}
+
+body{
+    height: 100vh;
+    background-image: url("lmn.jpg");
+}
+.wrapper{
+    font-size: 16px;
+    width: 90vw;
+    max-width: 28em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.container{
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    padding: 3em 1.8em;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 0.6em;
+    box-shadow: 0 1.8em 3.7em rgba(3,46,87,0.2);
+    text-align: center;
+}
+.shape{
+    position: absolute;
+    background-color: rgba(255 ,255, 255 ,0.25);
+    backdrop-filter: blur(1.2em);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 50%;
+}
+.shape-1{
+    height: 13.5em;
+    width: 13.5em;
+    right: -7.5em;
+    top: 1.8em;
+}
+.shape-2{
+    height: 11em;
+    width: 11em;
+    bottom: -2.5em;
+    left: -2.5em;
+}
+
+
+.Widgetquery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 0.8fr 0.8fr;
+    gap: 0.35em;
+}
+.Widgetquery input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.Widgetquery button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 45px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.left-panel{
+    color: #fff;
+}
+.wicon{
+    width: 90px;
+    margin-top: 10px;
+}
+.w-info{
+    margin-bottom: 15px;
+}
+.date{
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.temps .cel{
+    color: orange;
+}
+.city{
+    color: #fff;
+}
+.left-panel h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+}
+.left-panel h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 0px;
+    color: #fff;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px;
+    color: #fff;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.left-panel{
+    display: none;
+}

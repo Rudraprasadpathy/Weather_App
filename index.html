@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecaster</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <p class="err-txt"></p>
+    <div class="wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="container">
+                <div class="Widgetquery">
+                    <input type="text" placeholder="Enter a city name" spellcheck="false" class="city-input">
+                    <button class="search-btn"><i class='bx bx-search'></i></button>
+                    <button class="search-self"><i class='bx bx-current-location bx-rotate-90' ></i></button>
+                </div>
+                
+                <div class="left-panel">
+                    <div class="date">
+                        Monday, 20 Aug 2018
+                    </div>
+                    <img src="clouds.png" class="wicon">
+                    <div>
+                        <p class="w-info"></p>
+                    </div>
+                    
+                    <h1 class="temps">
+                        <span class="cel">00</span>
+                        &deg;C
+                    </h1>
+                    <h2 class="city">
+                        Mumbai
+                    </h2>
+                 <div class="details">
+                    <div class="col">
+                        <img src="humidity.png">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="wind.png">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div> 
+                 </div>
+                </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
